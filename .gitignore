@@ -1,3 +1,6 @@
+# Build artifacts
+dist
+
 # Config files
 .npmrc
 
@@ -22,6 +25,9 @@ pids
 
 # Dependency directory
 node_modules
+
+# Generated artifacts
+src/generated
 
 .yarn/*
 !.yarn/patches

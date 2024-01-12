@@ -9,3 +9,8 @@ const designSystems = fs.readdirSync(DESIGN_SYSTEMS_DIR).map((name) => {
   const contents = yaml.load(fs.readFileSync(filepath, 'utf8'));
   return contents;
 });
+
+fs.writeFileSync(
+  path.join(ROOT_DIR, 'src', 'generated', 'design-systems.json'),
+  JSON.stringify(designSystems, null, 2),
+);

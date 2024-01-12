@@ -1,3 +1,4 @@
+import json from '@rollup/plugin-json';
 import esbuild from 'rollup-plugin-esbuild';
 import typescript from 'rollup-plugin-typescript2';
 
@@ -8,7 +9,13 @@ const config = {
   input: ['src/index.ts'],
   external: [],
   plugins: [
-    esbuild(),
+    json({
+      preferConst: true,
+    }),
+    esbuild({
+      platform: 'node',
+      target: ['node20'],
+    }),
     typescript({
       tsconfig: 'tsconfig.build.json',
     }),

@@ -1,25 +1,25 @@
-import Joi from 'joi';
+import { z } from 'zod';
 
-const link = Joi.object({
-  url: Joi.string().required(),
-  type: Joi.string().valid('website', 'storybook'),
+const link = z.object({
+  url: z.string(),
+  type: z.enum(['website', 'storybook']),
 });
 
-const pkg = Joi.object({
-  registry: Joi.string().valid('npm').required(),
-  package: Joi.string().required(),
+const pkg = z.object({
+  registry: z.enum(['npm']),
+  package: z.string(),
 });
 
-const source = Joi.object({
-  name: Joi.string().required(),
-  owner: Joi.string().required(),
-  type: Joi.string().valid('github').required(),
+const source = z.object({
+  name: z.string(),
+  owner: z.string(),
+  type: z.enum(['github']),
 });
 
-export const designSystem = Joi.object({
-  name: Joi.string().required(),
-  company: Joi.string().required(),
-  links: Joi.array().items(link).required(),
-  sources: Joi.array().items(source),
-  packages: Joi.array().items(pkg).required(),
+export const designSystem = z.object({
+  name: z.string(),
+  company: z.string(),
+  links: z.array(link),
+  sources: z.array(source),
+  packages: z.array(pkg),
 });

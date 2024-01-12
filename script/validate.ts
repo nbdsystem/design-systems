@@ -13,8 +13,5 @@ const designSystems = await fs.readdir(DESIGN_SYSTEMS_DIR).then((names) => {
 
 for (const filepath of designSystems) {
   const contents = yaml.load(await fs.readFile(filepath, 'utf8'));
-  const result = designSystem.validate(contents);
-  if (result.error) {
-    throw result.error;
-  }
+  designSystem.parse(contents);
 }
