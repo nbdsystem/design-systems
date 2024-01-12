@@ -1,0 +1,8 @@
+name: Helsinki Design System
+company: City of Helsinki
+links: []
+sources:
+  - type: github
+    owner: City-of-Helsinki
+    name: helsinki-design-system
+packages: []

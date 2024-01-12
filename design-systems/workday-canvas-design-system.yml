@@ -1,0 +1,10 @@
+name: Canvas
+company: Workday
+links:
+  - type: storybook
+    url: https://workday.github.io/canvas-kit/
+sources:
+  - type: github
+    owner: Workday
+    name: canvas-kit
+packages: []

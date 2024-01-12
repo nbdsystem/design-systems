@@ -1,0 +1,10 @@
+name: Polaris
+company: Shopify
+links:
+  - type: storybook
+    url: https://main--5d559397bae39100201eedc1.chromatic.com/
+sources:
+  - type: github
+    owner: Shopify
+    name: polaris
+packages: []

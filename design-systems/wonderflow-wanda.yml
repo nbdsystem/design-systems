@@ -1,0 +1,10 @@
+name: Wanda
+company: Wonderflow
+links:
+  - type: storybook
+    url: https://wonderflow-bv.github.io/wanda/
+sources:
+  - type: github
+    owner: wonderflow-bv
+    name: wanda
+packages: []

@@ -1,0 +1,8 @@
+name: Helios
+company: Hashicorp
+links: []
+sources:
+  - type: github
+    owner: hashicorp
+    name: design-system
+packages: []

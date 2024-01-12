@@ -1,0 +1,10 @@
+name: Pharos
+company: JSTOR
+links:
+  - type: storybook
+    url: https://develop--60919c26122bd50039b34644.chromatic.com
+sources:
+  - type: github
+    owner: ithaka
+    name: pharos
+packages: []

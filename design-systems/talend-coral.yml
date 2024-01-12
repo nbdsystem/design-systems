@@ -1,0 +1,10 @@
+name: Coral
+company: Talend
+links:
+  - type: storybook
+    url: https://design.talend.com/
+sources:
+  - type: github
+    owner: Talend
+    name: ui
+packages: []

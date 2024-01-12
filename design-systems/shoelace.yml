@@ -1,0 +1,8 @@
+name: Shoelace
+company: Shoelace
+links: []
+sources:
+  - type: github
+    owner: shoelace-style
+    name: shoelace
+packages: []

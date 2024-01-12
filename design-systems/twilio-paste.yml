@@ -1,0 +1,10 @@
+name: Paste
+company: Twilio
+links:
+  - type: storybook
+    url: http://design-system-react-components.herokuapp.com/
+sources:
+  - type: github
+    owner: twilio-labs
+    name: paste
+packages: []

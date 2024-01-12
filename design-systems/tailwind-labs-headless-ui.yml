@@ -1,0 +1,8 @@
+name: Headless UI
+company: 'Tailwind Labs'
+links: []
+sources:
+  - type: github
+    owner: tailwindlabs
+    name: headlessui
+packages: []

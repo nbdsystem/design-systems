@@ -1,0 +1,8 @@
+name: Stacks
+company: Stack Overflow
+links: []
+sources:
+  - type: github
+    owner: StackExchange
+    name: Stacks
+packages: []

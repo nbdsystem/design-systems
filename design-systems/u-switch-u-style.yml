@@ -1,0 +1,8 @@
+name: uStyle
+company: uSwitch
+links: []
+sources:
+  - type: github
+    owner: uswitch
+    name: ustyle
+packages: []

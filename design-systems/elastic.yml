@@ -1,0 +1,8 @@
+name: Elastic UI framework
+company: Elastic
+links: []
+sources:
+  - type: github
+    owner: elastic
+    name: eui
+packages: []

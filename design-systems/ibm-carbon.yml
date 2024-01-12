@@ -1,0 +1,10 @@
+name: Carbon Design System
+company: IBM
+links:
+  - type: storybook
+    url: https://react.carbondesignsystem.com/
+sources:
+  - type: github
+    owner: carbon-design-system
+    name: carbon
+packages: []

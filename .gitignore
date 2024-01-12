@@ -1,0 +1,31 @@
+# Config files
+.npmrc
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Certificates
+*.crt
+*.pem
+
+# Editor
+.DS_Store
+*.swp
+.idea
+.vscode
+
+# Dependency directory
+node_modules
+
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

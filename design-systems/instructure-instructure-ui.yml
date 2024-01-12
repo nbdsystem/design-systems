@@ -1,0 +1,8 @@
+name: Instructure-UI
+company: Instructure
+links: []
+sources:
+  - type: github
+    owner: instructure
+    name: instructure-ui
+packages: []

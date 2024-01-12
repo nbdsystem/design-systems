@@ -1,0 +1,8 @@
+name: Spark Design System
+company: Quicken Loans
+links: []
+sources:
+  - type: github
+    owner: sparkdesignsystem
+    name: spark-design-system
+packages: []

@@ -1,0 +1,8 @@
+name: Aurora
+company: Government of Canada
+links: []
+sources:
+  - type: github
+    owner: gctools-outilsgc
+    name: aurora-design-system
+packages: []

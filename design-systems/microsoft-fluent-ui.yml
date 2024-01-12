@@ -1,0 +1,10 @@
+name: Fluent UI
+company: Microsoft
+links:
+  - type: storybook
+    url: https://master--628d031b55e942004ac95df1.chromatic.com/
+sources:
+  - type: github
+    owner: microsoft
+    name: fluentui
+packages: []
