@@ -24,3 +24,10 @@ body:
       description: 'The main website for the design system'
     validations:
       required: true
+  - type: input
+    id: github
+    attributes:
+      label: GitHub
+      description: 'The main GitHub repository for the design system'
+    validations:
+      required: false
