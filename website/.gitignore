@@ -1,0 +1,5 @@
+# Cache folder for Next.js
+.next
+
+# Folder for static export
+out

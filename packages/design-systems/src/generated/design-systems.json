@@ -1,0 +1,731 @@
+[
+  {
+    "name": "Spectrum",
+    "company": "Adobe",
+    "links": [
+      {
+        "url": "https://spectrum.adobe.com",
+        "type": "website"
+      },
+      {
+        "url": "https://opensource.adobe.com/spectrum-web-components/storybook/",
+        "type": "storybook"
+      }
+    ],
+    "sources": [
+      {
+        "type": "github",
+        "name": "spectrum-css",
+        "owner": "adobe"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Auro",
+    "company": "Alaska Airlines",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "AlaskaAirlines",
+        "name": "auro"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Ant Design",
+    "company": "Ant Financial",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "ant-design",
+        "name": "ant-design"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Atlassian Design System",
+    "company": "Atlassian",
+    "links": [],
+    "sources": [],
+    "packages": []
+  },
+  {
+    "name": "Momentum Design",
+    "company": "Cisco",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "momentum-design",
+        "name": "momentum-ui"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Helsinki Design System",
+    "company": "City of Helsinki",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "City-of-Helsinki",
+        "name": "helsinki-design-system"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Forma 36",
+    "company": "Contentful",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "contentful",
+        "name": "forma-36"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Cauldron",
+    "company": "Deque",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "dequelabs",
+        "name": "cauldron"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "GOLD Design System",
+    "company": "Design System AU",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "designsystemau",
+        "name": "gold-design-system"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Elastic UI framework",
+    "company": "Elastic",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "elastic",
+        "name": "eui"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Jøkul Designsystem",
+    "company": "Fremtind Forsikring",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "fremtind",
+        "name": "jokul"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Crayons",
+    "company": "Freshworks",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "freshworks",
+        "name": "crayons"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "FutureLearn design system",
+    "company": "FutureLearn",
+    "links": [],
+    "sources": [],
+    "packages": []
+  },
+  {
+    "name": "Edison Design System",
+    "company": "General Electric",
+    "links": [],
+    "sources": [],
+    "packages": []
+  },
+  {
+    "name": "Primer",
+    "company": "GitHub",
+    "links": [
+      {
+        "type": "storybook",
+        "url": "https://main--61a90feace7802003a4d9c45.chromatic.com/"
+      }
+    ],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "primer",
+        "name": "react"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "GOV.UK Design System",
+    "company": "GOV.UK",
+    "links": [
+      {
+        "type": "storybook",
+        "url": "https://govuk-react.github.io/govuk-react/"
+      }
+    ],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "alphagov",
+        "name": "govuk-design-system"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Aurora",
+    "company": "Government of Canada",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "gctools-outilsgc",
+        "name": "aurora-design-system"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Helios",
+    "company": "Hashicorp",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "hashicorp",
+        "name": "design-system"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Purple3",
+    "company": "Heroku",
+    "links": [],
+    "sources": [],
+    "packages": []
+  },
+  {
+    "name": "Carbon Design System",
+    "company": "IBM",
+    "links": [
+      {
+        "type": "storybook",
+        "url": "https://react.carbondesignsystem.com/"
+      }
+    ],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "carbon-design-system",
+        "name": "carbon"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Instructure-UI",
+    "company": "Instructure",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "instructure",
+        "name": "instructure-ui"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Pharos",
+    "company": "JSTOR",
+    "links": [
+      {
+        "type": "storybook",
+        "url": "https://develop--60919c26122bd50039b34644.chromatic.com"
+      }
+    ],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "ithaka",
+        "name": "pharos"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Orbit",
+    "company": "Kiwi.com",
+    "links": [
+      {
+        "type": "storybook",
+        "url": "https://kiwicom.github.io/orbit/"
+      }
+    ],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "kiwicom",
+        "name": "orbit"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Duet Design System",
+    "company": "LocalTapiola",
+    "links": [],
+    "sources": [],
+    "packages": []
+  },
+  {
+    "name": "Fluent UI",
+    "company": "Microsoft",
+    "links": [
+      {
+        "type": "storybook",
+        "url": "https://master--628d031b55e942004ac95df1.chromatic.com/"
+      }
+    ],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "microsoft",
+        "name": "fluentui"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "NewsKit",
+    "company": "News Corp",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "newscorp-ghfb",
+        "name": "newskit"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Nord Design System",
+    "company": "Nordhealth",
+    "links": [],
+    "sources": [],
+    "packages": []
+  },
+  {
+    "name": "ONS Design System",
+    "company": "Office for National Statistics",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "ONSdigital",
+        "name": "design-system"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Ontario Design System",
+    "company": "Ontario Government",
+    "links": [],
+    "sources": [],
+    "packages": []
+  },
+  {
+    "name": "Bolt Design System",
+    "company": "Pegasystems",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "boltdesignsystem",
+        "name": "bolt"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Gestalt",
+    "company": "Pinterest",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "pinterest",
+        "name": "gestalt"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Spark Design System",
+    "company": "Quicken Loans",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "sparkdesignsystem",
+        "name": "spark-design-system"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Cedar",
+    "company": "Recreational Equipment, Inc.",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "rei",
+        "name": "rei-cedar"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Oxygen",
+    "company": "Repsol",
+    "links": [],
+    "sources": [],
+    "packages": []
+  },
+  {
+    "name": "Luna",
+    "company": "Sainsbury’s",
+    "links": [],
+    "sources": [],
+    "packages": []
+  },
+  {
+    "name": "Lightning Design System",
+    "company": "Salesforce",
+    "links": [
+      {
+        "type": "storybook",
+        "url": "http://design-system-react-components.herokuapp.com/"
+      }
+    ],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "salesforce-ux",
+        "name": "design-system"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Evergreen",
+    "company": "Segment",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "segmentio",
+        "name": "evergreen"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Shoelace",
+    "company": "Shoelace",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "shoelace-style",
+        "name": "shoelace"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Polaris",
+    "company": "Shopify",
+    "links": [
+      {
+        "type": "storybook",
+        "url": "https://main--5d559397bae39100201eedc1.chromatic.com/"
+      }
+    ],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "Shopify",
+        "name": "polaris"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "SEB Design Library",
+    "company": "Skandinaviska Enskilda Banken",
+    "links": [],
+    "sources": [],
+    "packages": []
+  },
+  {
+    "name": "Backpack",
+    "company": "Skyscanner",
+    "links": [
+      {
+        "type": "storybook",
+        "url": "https://backpack.github.io/storybook/index.html"
+      }
+    ],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "Skyscanner",
+        "name": "backpack"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Seeds",
+    "company": "Sprout Social",
+    "links": [],
+    "sources": [],
+    "packages": []
+  },
+  {
+    "name": "Stacks",
+    "company": "Stack Overflow",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "StackExchange",
+        "name": "Stacks"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Headless UI",
+    "company": "Tailwind Labs",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "tailwindlabs",
+        "name": "headlessui"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Coral",
+    "company": "Talend",
+    "links": [
+      {
+        "type": "storybook",
+        "url": "https://design.talend.com/"
+      }
+    ],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "Talend",
+        "name": "ui"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Source",
+    "company": "The Guardian",
+    "links": [
+      {
+        "type": "storybook",
+        "url": "https://guardian.github.io/source/?path=/story/source--page"
+      }
+    ],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "guardian",
+        "name": "source"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Thumbprint",
+    "company": "Thumbtack",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "thumbtack",
+        "name": "thumbprint"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Paste",
+    "company": "Twilio",
+    "links": [
+      {
+        "type": "storybook",
+        "url": "http://design-system-react-components.herokuapp.com/"
+      }
+    ],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "twilio-labs",
+        "name": "paste"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "uStyle",
+    "company": "uSwitch",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "uswitch",
+        "name": "ustyle"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Base Web",
+    "company": "Uber",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "uber",
+        "name": "baseweb"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "United States Web Design System",
+    "company": "United States government",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "uswds",
+        "name": "uswds"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Clarity Design System",
+    "company": "VMware",
+    "links": [],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "vmware-clarity",
+        "name": "ng-clarity"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Vercel Design",
+    "company": "Vercel",
+    "links": [],
+    "sources": [],
+    "packages": []
+  },
+  {
+    "name": "GroupUI",
+    "company": "Volkswagen Group",
+    "links": [],
+    "sources": [],
+    "packages": []
+  },
+  {
+    "name": "Wanda",
+    "company": "Wonderflow",
+    "links": [
+      {
+        "type": "storybook",
+        "url": "https://wonderflow-bv.github.io/wanda/"
+      }
+    ],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "wonderflow-bv",
+        "name": "wanda"
+      }
+    ],
+    "packages": []
+  },
+  {
+    "name": "Canvas",
+    "company": "Workday",
+    "links": [
+      {
+        "type": "storybook",
+        "url": "https://workday.github.io/canvas-kit/"
+      }
+    ],
+    "sources": [
+      {
+        "type": "github",
+        "owner": "Workday",
+        "name": "canvas-kit"
+      }
+    ],
+    "packages": []
+  }
+]

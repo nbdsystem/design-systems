@@ -1,0 +1,42 @@
+{
+  "name": "@nbds/design-systems",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "yarn clean && tsx script/build.ts && rollup -c",
+    "clean": "rimraf dist src/generated",
+    "generate": "tsx script/generate.ts",
+    "validate": "tsx script/validate.ts"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.1.0",
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.11.0",
+    "change-case": "^5.4.1",
+    "esbuild": "^0.19.11",
+    "js-yaml": "^4.1.0",
+    "prettier": "^3.2.0",
+    "rimraf": "^5.0.5",
+    "rollup": "^4.9.5",
+    "rollup-plugin-esbuild": "^6.1.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "zod": "^3.22.4"
+  },
+  "packageManager": "yarn@4.0.2"
+}
