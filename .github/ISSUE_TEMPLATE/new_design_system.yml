@@ -1,0 +1,26 @@
+name: New Design System :sparkles:
+description: 'Add the information for a design system to the project'
+title: '[Design System]: '
+labels: 'type: design-system'
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: 'The name of the design system'
+    validations:
+      required: true
+  - type: input
+    id: company
+    attributes:
+      label: Company
+      description: 'The company for the design system'
+    validations:
+      required: false
+  - type: input
+    id: website
+    attributes:
+      label: Website
+      description: 'The main website for the design system'
+    validations:
+      required: true
