@@ -572,6 +572,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@nbds/pkg@workspace:packages/pkg":
+  version: 0.0.0-use.local
+  resolution: "@nbds/pkg@workspace:packages/pkg"
+  languageName: unknown
+  linkType: soft
+
 "@next/env@npm:14.1.4":
   version: 14.1.4
   resolution: "@next/env@npm:14.1.4"
