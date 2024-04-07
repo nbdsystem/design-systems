@@ -1,0 +1,1614 @@
+{
+  "design-systems": [
+    {
+      "name": "Altinn Designsystem",
+      "sponsor": "Altinn",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://altinn.no/designsystem"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Altinn/DesignSystem"
+        }
+      ]
+    },
+    {
+      "name": "Ant Design",
+      "sponsor": "Ant Financial",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://ant.design"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/ant-design/ant-design"
+        }
+      ]
+    },
+    {
+      "name": "Anvil Design System",
+      "sponsor": "ServiceTitan",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://anvil.servicetitan.com"
+        }
+      ]
+    },
+    {
+      "name": "Atlassian Design System",
+      "sponsor": "Atlassian",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://atlassian.design/"
+        },
+        {
+          "type": "repository",
+          "url": "https://bitbucket.org/atlassian/atlaskit"
+        }
+      ]
+    },
+    {
+      "name": "audi ui",
+      "sponsor": "audi",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://www.audi.com/ci/en/guides/user-interface/introduction.html"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/audi/audi-ui"
+        }
+      ]
+    },
+    {
+      "name": "Auro",
+      "sponsor": "Alaska Airlines",
+      "links": [
+        {
+          "type": "repository",
+          "url": "https://github.com/AlaskaAirlines/auro"
+        }
+      ]
+    },
+    {
+      "name": "Aurora Design System",
+      "sponsor": "Government of Canada",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://design.gccollab.ca/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/gctools-outilsgc/design-system-code"
+        }
+      ]
+    },
+    {
+      "name": "Australian Government Design System",
+      "sponsor": "Digital Transformation Agency",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://designsystem.gov.au"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/govau/design-system-components"
+        }
+      ]
+    },
+    {
+      "name": "Backpack",
+      "sponsor": "Skyscanner",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://backpack.github.io/"
+        },
+        {
+          "type": "storybook",
+          "url": "https://backpack.github.io/storybook/index.html"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Skyscanner/backpack"
+        }
+      ]
+    },
+    {
+      "name": "base",
+      "sponsor": "mapbox",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://www.mapbox.com/base/"
+        }
+      ]
+    },
+    {
+      "name": "Base Web",
+      "sponsor": "Uber",
+      "links": [
+        {
+          "type": "repository",
+          "url": "https://github.com/uber/baseweb"
+        }
+      ]
+    },
+    {
+      "name": "bloom",
+      "sponsor": "appear here",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://bloom.appearhere.co.uk/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/appearhere/bloom/"
+        }
+      ]
+    },
+    {
+      "name": "bold design system",
+      "sponsor": "bridge",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://bold.bridge.ufsc.br/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/laboratoriobridge/bold"
+        }
+      ]
+    },
+    {
+      "name": "Bolt Design System",
+      "sponsor": "Pegasystems",
+      "links": [
+        {
+          "type": "repository",
+          "url": "https://github.com/boltdesignsystem/bolt"
+        }
+      ]
+    },
+    {
+      "name": "Brainly Style Guide",
+      "sponsor": "brainly",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://styleguide.brainly.com/130.0.1/docs/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/brainly/style-guide"
+        }
+      ]
+    },
+    {
+      "name": "brand estonia",
+      "sponsor": "estonia",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://brand.estonia.ee/"
+        }
+      ]
+    },
+    {
+      "name": "Workday Canvas Design System",
+      "sponsor": "Workday",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://design.workday.com/"
+        },
+        {
+          "type": "storybook",
+          "url": "https://workday.github.io/canvas-kit/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Workday/canvas-kit"
+        }
+      ],
+      "packages": [
+        {
+          "registry": "npm",
+          "name": "@workday/canvas-kit-react"
+        }
+      ]
+    },
+    {
+      "name": "Carbon Design System",
+      "sponsor": "IBM",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://carbondesignsystem.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/carbon-design-system"
+        },
+        {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/"
+        }
+      ]
+    },
+    {
+      "name": "Cauldron",
+      "sponsor": "Deque",
+      "links": [
+        {
+          "type": "repository",
+          "url": "https://github.com/dequelabs/cauldron"
+        }
+      ]
+    },
+    {
+      "name": "Cedar",
+      "sponsor": "Recreational Equipment, Inc.",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://rei.github.io/rei-cedar/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/rei/rei-cedar"
+        }
+      ]
+    },
+    {
+      "name": "cf-ui",
+      "sponsor": "cloudflare",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://cloudflare.github.io/cf-ui/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/cloudflare/cf-ui"
+        }
+      ]
+    },
+    {
+      "name": "cfpb design manual",
+      "sponsor": "consumer financial protection bureau",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://cfpb.github.io/design-manual/index.html"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/cfpb/capital-framework"
+        }
+      ]
+    },
+    {
+      "name": "Chameleon",
+      "sponsor": "pusher",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://pusher.github.io/chameleon/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/pusher/chameleon"
+        }
+      ]
+    },
+    {
+      "name": "Clarity Design System",
+      "sponsor": "VMware",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://vmware.github.io/clarity/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/vmware/clarity"
+        }
+      ]
+    },
+    {
+      "name": "CNVS",
+      "sponsor": "mesosphere",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://mesosphere.github.io/cnvs/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/mesosphere/cnvs"
+        }
+      ]
+    },
+    {
+      "name": "Coral",
+      "sponsor": "Talend",
+      "links": [
+        {
+          "type": "storybook",
+          "url": "https://design.talend.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Talend/ui"
+        }
+      ]
+    },
+    {
+      "name": "cosmos",
+      "sponsor": "auth0",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://auth0-cosmos.now.sh"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/auth0/cosmos"
+        }
+      ]
+    },
+    {
+      "name": "Crayons",
+      "sponsor": "Freshworks",
+      "links": [
+        {
+          "type": "repository",
+          "url": "https://github.com/freshworks/crayons"
+        }
+      ]
+    },
+    {
+      "name": "design manual",
+      "sponsor": "co-op",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://coop-design-manual.herokuapp.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/coopdigital/coop-frontend-toolkit"
+        }
+      ]
+    },
+    {
+      "name": "drylus",
+      "sponsor": "drawbotics",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://drawbotics.github.io/drylus"
+        }
+      ]
+    },
+    {
+      "name": "Duet Design System",
+      "sponsor": "LocalTapiola Services Ltd",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://www.duetds.com/"
+        }
+      ]
+    },
+    {
+      "name": "Edison Design System",
+      "sponsor": "General Electric",
+      "links": []
+    },
+    {
+      "name": "Elastic UI framework",
+      "sponsor": "Elastic",
+      "links": [
+        {
+          "type": "repository",
+          "url": "https://github.com/elastic/eui"
+        }
+      ]
+    },
+    {
+      "name": "EOS Design System",
+      "sponsor": "SUSE",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://eosdesignsystem.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://gitlab.com/SUSE-UIUX/eos"
+        }
+      ]
+    },
+    {
+      "name": "Evergreen",
+      "sponsor": "Segment",
+      "links": [
+        {
+          "type": "repository",
+          "url": "https://github.com/segmentio/evergreen"
+        }
+      ]
+    },
+    {
+      "name": "Feather",
+      "sponsor": "Alfa-Bank",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://design.alfabank.ru/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/alfa-laboratory/arui-feather"
+        }
+      ]
+    },
+    {
+      "name": "Feelix",
+      "sponsor": "MYOB",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://feelix.myob.com/"
+        }
+      ]
+    },
+    {
+      "name": "Finastra Design System",
+      "sponsor": "finastra",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://design.fusionfabric.cloud/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/fusionfabric/finastra-design-system"
+        }
+      ]
+    },
+    {
+      "name": "Fluent UI",
+      "sponsor": "Microsoft",
+      "links": [
+        {
+          "type": "repository",
+          "url": "https://github.com/microsoft/fluentui"
+        }
+      ]
+    },
+    {
+      "name": "fluid",
+      "sponsor": "ENGIE",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://www.engie.design/"
+        }
+      ]
+    },
+    {
+      "name": "Forma 36",
+      "sponsor": "Contentful",
+      "links": [
+        {
+          "type": "repository",
+          "url": "https://github.com/contentful/forma-36"
+        }
+      ]
+    },
+    {
+      "name": "foundation design system",
+      "sponsor": "envato",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://envato.github.io/foundation-design-system/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/envato/foundation-design-system-tokens"
+        }
+      ]
+    },
+    {
+      "name": "frontier",
+      "sponsor": "family search",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://www.familysearch.org/frontier/styleguide/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/fs-webdev/fs-styles"
+        }
+      ]
+    },
+    {
+      "name": "Fuse",
+      "sponsor": "national instruments",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://ni.github.io/design-system/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/ni/design-system"
+        }
+      ]
+    },
+    {
+      "name": "FutureLearn design system",
+      "sponsor": "FutureLearn",
+      "links": []
+    },
+    {
+      "name": "Garden",
+      "sponsor": "Zendesk",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://garden.zendesk.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/zendeskgarden"
+        }
+      ]
+    },
+    {
+      "name": "gel",
+      "sponsor": "BBC",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://www.bbc.co.uk/gel"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/bbc/gel"
+        }
+      ]
+    },
+    {
+      "name": "Gestalt",
+      "sponsor": "Pinterest",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://pinterest.github.io/gestalt/#/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/pinterest/gestalt"
+        }
+      ]
+    },
+    {
+      "name": "GLU",
+      "sponsor": "eurostar",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://style.eurostar.com/"
+        }
+      ]
+    },
+    {
+      "name": "Goldman Sachs Design System",
+      "sponsor": "Goldman Sachs",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://design.gs.com/home"
+        }
+      ]
+    },
+    {
+      "name": "GOLD Design System",
+      "sponsor": "Design System AU",
+      "links": [
+        {
+          "type": "repository",
+          "url": "https://github.com/designsystemau/gold-design-system"
+        }
+      ]
+    },
+    {
+      "name": "GOV.UK Design System",
+      "sponsor": "GOV.UK",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://design-system.service.gov.uk/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/alphagov/govuk-design-system"
+        },
+        {
+          "type": "storybook",
+          "url": "https://govuk-react.github.io/govuk-react/"
+        }
+      ]
+    },
+    {
+      "name": "Gravity",
+      "sponsor": "Buildit | Wipro Digital",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://style.buildit.digital/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/buildit/gravity-ui-web"
+        }
+      ]
+    },
+    {
+      "name": "grommet",
+      "sponsor": "HP enterprise",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://grommet.io/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/grommet/grommet"
+        }
+      ]
+    },
+    {
+      "name": "GroupUI",
+      "sponsor": "Volkswagen Group",
+      "links": []
+    },
+    {
+      "name": "harmony",
+      "sponsor": "intuit",
+      "links": []
+    },
+    {
+      "name": "Headless UI",
+      "sponsor": "Tailwind Labs",
+      "links": [
+        {
+          "type": "repository",
+          "url": "https://github.com/tailwindlabs/headlessui"
+        }
+      ]
+    },
+    {
+      "name": "hedwig",
+      "sponsor": "bring & posten",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://hedwig-docs.herokuapp.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/bring/hedwig"
+        }
+      ]
+    },
+    {
+      "name": "Helios",
+      "sponsor": "Hashicorp",
+      "links": [
+        {
+          "type": "repository",
+          "url": "https://github.com/hashicorp/design-system"
+        }
+      ]
+    },
+    {
+      "name": "Helsinki Design System",
+      "sponsor": "City of Helsinki",
+      "links": [
+        {
+          "type": "repository",
+          "url": "https://github.com/City-of-Helsinki/helsinki-design-system"
+        }
+      ]
+    },
+    {
+      "name": "Instructure-UI",
+      "sponsor": "Instructure",
+      "links": [
+        {
+          "type": "repository",
+          "url": "https://github.com/instructure/instructure-ui"
+        }
+      ]
+    },
+    {
+      "name": "JetBrains Web UI",
+      "sponsor": "JetBrains",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://www.jetbrains.org/ring-ui/index.html"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/JetBrains/ring-ui"
+        }
+      ]
+    },
+    {
+      "name": "Jøkul Designsystem",
+      "sponsor": "Fremtind Forsikring",
+      "links": [
+        {
+          "type": "repository",
+          "url": "https://github.com/fremtind/jokul"
+        }
+      ]
+    },
+    {
+      "name": "Lexicon",
+      "sponsor": "liferay",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://lexicondesign.io/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/liferay/lexicon-site"
+        }
+      ]
+    },
+    {
+      "name": "Lightning Design System",
+      "sponsor": "Salesforce",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://www.lightningdesignsystem.com/"
+        },
+        {
+          "type": "storybook",
+          "url": "http://design-system-react-components.herokuapp.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/salesforce-ux/design-system"
+        }
+      ]
+    },
+    {
+      "name": "Luna",
+      "sponsor": "Sainsbury’s",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://luna.sainsburys.co.uk/"
+        }
+      ]
+    },
+    {
+      "name": "Mineral UI",
+      "sponsor": "CA Technologies",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://mineral-ui.netlify.app/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/mineral-ui/mineral-ui"
+        }
+      ]
+    },
+    {
+      "name": "Mística",
+      "sponsor": "Telefónica",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://brandfactory.telefonica.com/mistica"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Telefonica/mistica"
+        }
+      ]
+    },
+    {
+      "name": "Mixpanel DS",
+      "sponsor": "mixpanel",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://design.mixpanel.com/"
+        }
+      ]
+    },
+    {
+      "name": "Momentum Design",
+      "sponsor": "Cisco",
+      "links": [
+        {
+          "type": "repository",
+          "url": "https://github.com/momentum-design/momentum-ui"
+        }
+      ]
+    },
+    {
+      "name": "morningstar design system",
+      "sponsor": "morningstar",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://designsystem.morningstar.com/"
+        }
+      ]
+    },
+    {
+      "name": "nachos",
+      "sponsor": "trello",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://design.trello.com/"
+        }
+      ]
+    },
+    {
+      "name": "NewsKit",
+      "sponsor": "News Corp",
+      "links": [
+        {
+          "type": "repository",
+          "url": "https://github.com/newscorp-ghfb/newskit"
+        }
+      ]
+    },
+    {
+      "name": "Nord Design System",
+      "sponsor": "Nordhealth",
+      "links": []
+    },
+    {
+      "name": "Nova",
+      "sponsor": "Elia Group",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://nova.eliagroup.io"
+        }
+      ]
+    },
+    {
+      "name": "NUDE Elements",
+      "sponsor": "sellerscale",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://numl.tenphi.now.sh"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/tenphi/nude"
+        }
+      ]
+    },
+    {
+      "name": "Nulogy Design System",
+      "sponsor": "Nulogy",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://nulogy.design"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/nulogy/design-system"
+        }
+      ]
+    },
+    {
+      "name": "ONS Design System",
+      "sponsor": "Office for National Statistics",
+      "links": [
+        {
+          "type": "repository",
+          "url": "https://github.com/ONSdigital/design-system"
+        }
+      ]
+    },
+    {
+      "name": "Ontario Design System",
+      "sponsor": "Ontario Government",
+      "links": []
+    },
+    {
+      "name": "opattern",
+      "sponsor": "opower",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://ux.opower.com/opattern"
+        }
+      ]
+    },
+    {
+      "name": "openAQ design system",
+      "sponsor": "openAQ",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://github.com/openaq/openaq-design-system"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/openaq/openaq-design-system"
+        }
+      ]
+    },
+    {
+      "name": "Orbit",
+      "sponsor": "Kiwi.com",
+      "links": [
+        {
+          "type": "storybook",
+          "url": "https://kiwicom.github.io/orbit/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/kiwicom/orbit"
+        }
+      ]
+    },
+    {
+      "name": "Origami",
+      "sponsor": "financial times",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://origami.ft.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Financial-Times/ft-origami"
+        }
+      ]
+    },
+    {
+      "name": "Oxygen",
+      "sponsor": "Repsol",
+      "links": []
+    },
+    {
+      "name": "Pajamas Design System",
+      "sponsor": "GitLab",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://design.gitlab.com"
+        },
+        {
+          "type": "repository",
+          "url": "https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com"
+        }
+      ]
+    },
+    {
+      "name": "pandaUI",
+      "sponsor": "sipgate",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://panda.sipgatedesign.com"
+        }
+      ]
+    },
+    {
+      "name": "Paste",
+      "sponsor": "Twilio",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://paste.twilio.design/"
+        },
+        {
+          "type": "storybook",
+          "url": "http://design-system-react-components.herokuapp.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/twilio-labs/paste"
+        }
+      ]
+    },
+    {
+      "name": "pattern library",
+      "sponsor": "future learn",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://www.futurelearn.com/pattern-library"
+        }
+      ]
+    },
+    {
+      "name": "Patternfly Design System",
+      "sponsor": "Red Hat",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://www.patternfly.org/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/patternfly"
+        }
+      ]
+    },
+    {
+      "name": "Pebble Design System",
+      "sponsor": "iStreamPlanet",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://pebble.istreamplanet.net/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/istreamlabs/pebble"
+        }
+      ]
+    },
+    {
+      "name": "Pega Design System",
+      "sponsor": "Pegasystems",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://design.pega.com/"
+        }
+      ]
+    },
+    {
+      "name": "Pharos",
+      "sponsor": "JSTOR",
+      "links": [
+        {
+          "type": "storybook",
+          "url": "https://develop--60919c26122bd50039b34644.chromatic.com"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/ithaka/pharos"
+        }
+      ]
+    },
+    {
+      "name": "photon design system",
+      "sponsor": "mozilla firefox",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://design.firefox.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/FirefoxUX/photon"
+        }
+      ]
+    },
+    {
+      "name": "Pivotal UI",
+      "sponsor": "pivotal software",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://styleguide.pivotal.io/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/pivotal-cf/pivotal-ui"
+        }
+      ]
+    },
+    {
+      "name": "plasma",
+      "sponsor": "weWork",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://plasma.guide/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/WeConnect/plasma"
+        }
+      ]
+    },
+    {
+      "name": "pluralsight design system",
+      "sponsor": "pluralsight",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://design-system.pluralsight.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/pluralsight/design-system"
+        }
+      ]
+    },
+    {
+      "name": "Polaris",
+      "sponsor": "Shopify",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://polaris.shopify.com"
+        },
+        {
+          "type": "storybook",
+          "url": "https://main--5d559397bae39100201eedc1.chromatic.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/Shopify/polaris"
+        }
+      ]
+    },
+    {
+      "name": "Portinari UI",
+      "sponsor": "TOTVS",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://portinari.io"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/portinariui/portinari-angular"
+        }
+      ]
+    },
+    {
+      "name": "Predix Design System",
+      "sponsor": "GE Digital",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://www.predix-ui.com"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/predixdesignsystem"
+        }
+      ]
+    },
+    {
+      "name": "priceline design system",
+      "sponsor": "priceline",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://pricelinelabs.github.io/design-system/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/pricelinelabs/design-system"
+        }
+      ]
+    },
+    {
+      "name": "Primer",
+      "sponsor": "GitHub",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://primer.style/"
+        },
+        {
+          "type": "storybook",
+          "url": "https://main--61a90feace7802003a4d9c45.chromatic.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/primer/react"
+        }
+      ]
+    },
+    {
+      "name": "protocol",
+      "sponsor": "mozilla",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://protocol.mozilla.org/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/mozilla/protocol"
+        }
+      ]
+    },
+    {
+      "name": "Purple3",
+      "sponsor": "Heroku",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://purple3.herokuapp.com/"
+        }
+      ]
+    },
+    {
+      "name": "QuickBooks Design System",
+      "sponsor": "intuit",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://designsystem.quickbooks.com/"
+        }
+      ]
+    },
+    {
+      "name": "rizzo",
+      "sponsor": "lonely planet",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://rizzo.lonelyplanet.com/styleguide/design-elements/colours"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/lonelyplanet/rizzo"
+        }
+      ]
+    },
+    {
+      "name": "royal canin’s design language",
+      "sponsor": "royal canin",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://developer.royalcanin.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/First10/"
+        }
+      ]
+    },
+    {
+      "name": "SEB Design Library",
+      "sponsor": "Skandinaviska Enskilda Banken",
+      "links": []
+    },
+    {
+      "name": "Seeds",
+      "sponsor": "Sprout Social",
+      "links": []
+    },
+    {
+      "name": "Shoelace",
+      "sponsor": "Shoelace",
+      "links": [
+        {
+          "type": "repository",
+          "url": "https://github.com/shoelace-style/shoelace"
+        }
+      ]
+    },
+    {
+      "name": "snacks",
+      "sponsor": "instacart",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://instacart.github.io/Snacks/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/instacart/Snacks"
+        }
+      ]
+    },
+    {
+      "name": "solid",
+      "sponsor": "buzzfeed",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://solid.buzzfeed.com/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/buzzfeed/solid"
+        }
+      ]
+    },
+    {
+      "name": "Source",
+      "sponsor": "The Guardian",
+      "links": [
+        {
+          "type": "storybook",
+          "url": "https://guardian.github.io/source/?path=/story/source--page"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/guardian/source"
+        }
+      ]
+    },
+    {
+      "name": "SpareBank 1 Designsystem",
+      "sponsor": "SpareBank 1",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://design.sparebank1.no/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/SpareBank1/designsystem"
+        }
+      ]
+    },
+    {
+      "name": "Spark Design System",
+      "sponsor": "Quicken Loans",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://sparkdesignsystem.com"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/sparkdesignsystem/spark-design-system"
+        }
+      ]
+    },
+    {
+      "name": "Spectrum",
+      "sponsor": "Adobe",
+      "links": [
+        {
+          "url": "https://spectrum.adobe.com",
+          "type": "website"
+        },
+        {
+          "url": "https://opensource.adobe.com/spectrum-web-components/storybook/",
+          "type": "storybook"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/adobe/spectrum-css"
+        }
+      ]
+    },
+    {
+      "name": "Stacks",
+      "sponsor": "Stack Overflow",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://stackoverflow.design/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/StackExchange/Stacks"
+        }
+      ]
+    },
+    {
+      "name": "Starling",
+      "sponsor": "ACL",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://design.acl.com/page/Home"
+        }
+      ]
+    },
+    {
+      "name": "style guide",
+      "sponsor": "seek",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://seek-oss.github.io/seek-style-guide/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/seek-oss/seek-style-guide"
+        }
+      ]
+    },
+    {
+      "name": "VTEX Styleguide",
+      "sponsor": "VTEX",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://styleguide.vtex.com"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/vtex/styleguide"
+        }
+      ]
+    },
+    {
+      "name": "swarm design system",
+      "sponsor": "meetup",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://meetup.github.io/swarm-design-system/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/meetup/swarm-design-system"
+        }
+      ]
+    },
+    {
+      "name": "Thumbprint",
+      "sponsor": "Thumbtack",
+      "links": [
+        {
+          "type": "repository",
+          "url": "https://github.com/thumbtack/thumbprint"
+        }
+      ]
+    },
+    {
+      "name": "U.S. Web Design System",
+      "sponsor": "18F",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://designsystem.digital.gov/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/uswds/uswds"
+        }
+      ]
+    },
+    {
+      "name": "UI Design System",
+      "sponsor": "mongoDB",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://mongodb.design/#/ui-design-system/welcome"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/mongodb/design"
+        }
+      ]
+    },
+    {
+      "name": "uniform",
+      "sponsor": "hudl",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://uniform.hudl.com/"
+        }
+      ]
+    },
+    {
+      "name": "United States Web Design System",
+      "sponsor": "United States government",
+      "links": [
+        {
+          "type": "repository",
+          "url": "https://github.com/uswds/uswds"
+        }
+      ]
+    },
+    {
+      "name": "USA jobs design system",
+      "sponsor": "USAJobs",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://usajobs.github.io/design-system/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/USAJOBS/design-system"
+        }
+      ]
+    },
+    {
+      "name": "uStyle",
+      "sponsor": "uSwitch",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://ustyle.guide"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/uswitch/ustyle"
+        }
+      ]
+    },
+    {
+      "name": "vanilla framework",
+      "sponsor": "canonical",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://vanillaframework.io/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/canonical-web-and-design/vanilla-framework"
+        }
+      ]
+    },
+    {
+      "name": "Vercel Design",
+      "sponsor": "Vercel",
+      "links": []
+    },
+    {
+      "name": "Wanda",
+      "sponsor": "Wonderflow",
+      "links": [
+        {
+          "type": "storybook",
+          "url": "https://wonderflow-bv.github.io/wanda/"
+        },
+        {
+          "type": "repository",
+          "url": "https://github.com/wonderflow-bv/wanda"
+        }
+      ]
+    },
+    {
+      "name": "Wonderbly Design System",
+      "sponsor": "Wonderbly",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://design-system.lostmy.name/"
+        }
+      ]
+    }
+  ]
+}

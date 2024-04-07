@@ -1,8 +1,0 @@
-name: Ant Design
-company: Ant Financial
-links: []
-sources:
-  - type: github
-    owner: ant-design
-    name: ant-design
-packages: []

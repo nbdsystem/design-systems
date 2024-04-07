@@ -1,8 +1,0 @@
-name: NewsKit
-company: News Corp
-links: []
-sources:
-  - type: github
-    owner: newscorp-ghfb
-    name: newskit
-packages: []

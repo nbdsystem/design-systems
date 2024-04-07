@@ -1,8 +1,0 @@
-name: Gestalt
-company: Pinterest
-links: []
-sources:
-  - type: github
-    owner: pinterest
-    name: gestalt
-packages: []

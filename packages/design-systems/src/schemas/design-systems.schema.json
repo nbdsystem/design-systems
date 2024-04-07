@@ -1,0 +1,61 @@
+{
+  "$id": "https://nbds.dev/design-system.schema.json",
+  "title": "Design System",
+  "description": "A design system",
+  "type": "object",
+  "properties": {
+    "design-systems": {
+      "type": "array",
+      "description": "A collection of design systems",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The name of the design system"
+          },
+          "sponsor": {
+            "type": "string",
+            "description": "The company or primary maintainer of the design system"
+          },
+          "links": {
+            "type": "array",
+            "description": "A collection of links for the design system",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": ["website", "repository", "storybook"]
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": ["type", "url"]
+            }
+          },
+          "packages": {
+            "type": "array",
+            "description": "A collection of packages for the design system",
+            "items": {
+              "type": "object",
+              "properties": {
+                "registry": {
+                  "type": "string",
+                  "enum": ["npm"]
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": ["registry", "name"]
+            }
+          }
+        },
+        "required": ["name", "sponsor", "links"]
+      }
+    }
+  },
+  "required": ["design-systems"]
+}

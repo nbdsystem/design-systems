@@ -1,8 +1,0 @@
-name: Base Web
-company: Uber
-links: []
-sources:
-  - type: github
-    owner: uber
-    name: baseweb
-packages: []

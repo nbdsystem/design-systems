@@ -1,8 +1,0 @@
-name: Cedar
-company: Recreational Equipment, Inc.
-links: []
-sources:
-  - type: github
-    owner: rei
-    name: rei-cedar
-packages: []

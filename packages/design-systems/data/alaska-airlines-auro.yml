@@ -1,8 +1,0 @@
-name: Auro
-company: Alaska Airlines
-links: []
-sources:
-  - type: github
-    owner: AlaskaAirlines
-    name: auro
-packages: []

@@ -1,8 +1,0 @@
-name: Bolt Design System
-company: Pegasystems
-links: []
-sources:
-  - type: github
-    owner: boltdesignsystem
-    name: bolt
-packages: []

@@ -1,8 +1,0 @@
-name: Clarity Design System
-company: VMware
-links: []
-sources:
-  - type: github
-    owner: vmware-clarity
-    name: ng-clarity
-packages: []

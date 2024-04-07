@@ -16,26 +16,27 @@
     "access": "public"
   },
   "scripts": {
-    "build": "yarn clean && tsx script/build.ts && rollup -c",
-    "clean": "rimraf dist src/generated",
-    "generate": "tsx script/generate.ts",
-    "validate": "tsx script/validate.ts"
+    "build": "yarn clean && rollup -c",
+    "clean": "rimraf dist",
+    "validate": "tsx script/validate.ts",
+    "watch": "rollup -c -w"
   },
   "devDependencies": {
+    "@cfworker/json-schema": "^1.12.8",
     "@rollup/plugin-json": "^6.1.0",
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^20.11.0",
-    "change-case": "^5.4.1",
-    "esbuild": "^0.19.11",
+    "@types/node": "^20.12.5",
+    "change-case": "^5.4.4",
+    "esbuild": "^0.20.2",
     "js-yaml": "^4.1.0",
-    "prettier": "^3.2.0",
+    "prettier": "^3.2.5",
     "rimraf": "^5.0.5",
-    "rollup": "^4.9.5",
-    "rollup-plugin-esbuild": "^6.1.0",
+    "rollup": "^4.14.1",
+    "rollup-plugin-esbuild": "^6.1.1",
     "rollup-plugin-typescript2": "^0.36.0",
-    "tsx": "^4.7.0",
-    "typescript": "^5.3.3",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.4",
     "zod": "^3.22.4"
   },
   "packageManager": "yarn@4.0.2"

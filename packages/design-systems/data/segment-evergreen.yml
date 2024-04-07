@@ -1,8 +1,0 @@
-name: Evergreen
-company: Segment
-links: []
-sources:
-  - type: github
-    owner: segmentio
-    name: evergreen
-packages: []

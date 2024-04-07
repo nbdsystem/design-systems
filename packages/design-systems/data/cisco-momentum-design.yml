@@ -1,8 +1,0 @@
-name: Momentum Design
-company: Cisco
-links: []
-sources:
-  - type: github
-    owner: momentum-design
-    name: momentum-ui
-packages: []

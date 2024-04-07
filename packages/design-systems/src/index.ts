@@ -1,6 +1,3 @@
-import { z } from 'zod';
-import data from './generated/design-systems.json';
-import { designSystem } from './schemas/design-system';
+import data from '../data/design-systems.json';
 
-export type DesignSystem = z.infer<typeof designSystem>;
-export const designSystems = data as Array<DesignSystem>;
+export const designSystems = data['design-systems'];

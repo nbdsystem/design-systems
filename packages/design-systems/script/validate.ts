@@ -1,17 +1,11 @@
-import fs from 'node:fs/promises';
-import path from 'node:path';
-import yaml from 'js-yaml';
-import { designSystem } from '../src/schemas/design-system';
+import { Validator, type Schema } from '@cfworker/json-schema';
+import data from '../data/design-systems.json' assert { type: 'json' };
+import schema from '../src/schemas/design-systems.schema.json' assert { type: 'json' };
 
-const ROOT_DIR = path.resolve(import.meta.dirname!, '..');
-const DESIGN_SYSTEMS_DIR = path.join(ROOT_DIR, 'design-systems');
-const designSystems = await fs.readdir(DESIGN_SYSTEMS_DIR).then((names) => {
-  return names.map((name) => {
-    return path.join(DESIGN_SYSTEMS_DIR, name);
-  });
-});
+const validator = new Validator(schema as Schema);
 
-for (const filepath of designSystems) {
-  const contents = yaml.load(await fs.readFile(filepath, 'utf8'));
-  designSystem.parse(contents);
+const result = validator.validate(data);
+if (result.valid === false) {
+  console.log(result.errors);
+  throw new Error('Invalid design-systems.json file');
 }

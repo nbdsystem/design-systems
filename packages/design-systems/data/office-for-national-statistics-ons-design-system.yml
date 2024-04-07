@@ -1,8 +1,0 @@
-name: ONS Design System
-company: Office for National Statistics
-links: []
-sources:
-  - type: github
-    owner: ONSdigital
-    name: design-system
-packages: []

@@ -1,8 +1,0 @@
-name: Jøkul Designsystem
-company: Fremtind Forsikring
-links: []
-sources:
-  - type: github
-    owner: fremtind
-    name: jokul
-packages: []

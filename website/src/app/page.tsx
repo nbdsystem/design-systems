@@ -16,7 +16,7 @@ export default function IndexPage() {
     <>
       <main className="p-4 flex flex-col gap-y-4">
         <h1 className="text-2xl font-bold">
-          Design systems ({designSystems.length})
+          Design systems ({results.length})
         </h1>
         <div>
           <form>
@@ -46,31 +46,41 @@ export default function IndexPage() {
               : `${results.length} results found`}
           </div>
         </h2>
-        <div className="flex flex-col gap-y-6">
-          {results.map((designSystem) => {
-            return (
-              <section key={designSystem.name}>
-                <h3 className="text-lg font-semibold">{designSystem.name}</h3>
-                <p>{designSystem.company}</p>
-                <ul role="list">
-                  {designSystem.links.map((link) => {
-                    return (
-                      <li key={link.url} role="listitem">
-                        <Link
-                          className="text-blue-600 underline"
-                          href={link.url}
-                          rel="noopener noreferrer"
-                          target="_blank">
-                          {link.url}
-                        </Link>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </section>
-            );
-          })}
-        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Sponsor</th>
+            </tr>
+          </thead>
+          <tbody>
+            {results.map((result) => {
+              const key = `${result.sponsor}:${result.name}`;
+              const website = result.links.find((link) => {
+                return link.type === 'website';
+              });
+
+              return (
+                <tr key={key}>
+                  <td>
+                    {website ? (
+                      <Link
+                        className="text-blue-600 underline"
+                        href={website.url}
+                        rel="noopener noreferrer"
+                        target="_blank">
+                        {result.name}
+                      </Link>
+                    ) : (
+                      result.name
+                    )}
+                  </td>
+                  <td>{result.sponsor}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
       </main>
     </>
   );
