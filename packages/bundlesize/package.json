@@ -1,0 +1,33 @@
+{
+  "name": "@nbds/bundlesize",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "default": "./dist/index.js"
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "rollup -c",
+    "type-check": "tsc --noEmit",
+    "watch": "rollup -c -w"
+  },
+  "dependencies": {
+    "@nbds/pkg": "^0.0.0",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-virtual": "^3.0.2",
+    "gzip-size": "^7.0.0",
+    "rollup": "^4.14.1",
+    "terser": "^5.30.3"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.2",
+    "rimraf": "^5.0.5",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.4.4"
+  }
+}

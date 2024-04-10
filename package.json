@@ -8,13 +8,18 @@
   ],
   "scripts": {
     "build": "yarn workspaces foreach -Apt run build",
-    "clean": "",
+    "clean": "yarn workspaces foreach -Apt run clean",
     "format": "prettier --cache --write '**/*.{js,md,mdx,ts,tsx,yml}'",
-    "format:diff": "prettier --cache --list-different '**/*.{js,md,mdx,ts,tsx,yml}'"
+    "format:diff": "prettier --cache --list-different '**/*.{js,md,mdx,ts,tsx,yml}'",
+    "test": "vitest",
+    "type-check": "yarn workspaces foreach -Apt run type-check"
   },
   "packageManager": "yarn@4.1.1",
   "devDependencies": {
     "prettier": "^3.2.5",
-    "prettier-plugin-tailwindcss": "^0.5.13"
+    "prettier-plugin-tailwindcss": "^0.5.13",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.4",
+    "vitest": "^1.4.0"
   }
 }
