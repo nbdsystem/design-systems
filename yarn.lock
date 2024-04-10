@@ -1590,6 +1590,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "design-systems@workspace:."
   dependencies:
+    "@trivago/prettier-plugin-sort-imports": "npm:^4.3.0"
     prettier: "npm:^3.2.5"
     prettier-plugin-tailwindcss: "npm:^0.5.13"
     tsx: "npm:^4.7.2"

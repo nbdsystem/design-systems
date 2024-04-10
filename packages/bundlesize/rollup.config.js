@@ -2,10 +2,14 @@ import esbuild from 'rollup-plugin-esbuild';
 import typescript from 'rollup-plugin-typescript2';
 import packageJson from './package.json' assert { type: 'json' };
 
-const external = ['dependencies', 'devDependencies', 'peerDependencies'].flatMap(type => {
+const external = [
+  'dependencies',
+  'devDependencies',
+  'peerDependencies',
+].flatMap((type) => {
   if (packageJson[type]) {
     return Object.keys(packageJson[type]).map((name) => {
-      return new RegExp(`^${name}(/.*)?`)
+      return new RegExp(`^${name}(/.*)?`);
     });
   }
   return [];
@@ -16,10 +20,7 @@ const external = ['dependencies', 'devDependencies', 'peerDependencies'].flatMap
  */
 const config = {
   input: ['src/index.ts'],
-  external: [
-    ...external,
-    new RegExp(`^node:`),
-  ],
+  external: [...external, new RegExp(`^node:`)],
   plugins: [
     typescript({
       tsconfig: 'tsconfig.build.json',
@@ -33,4 +34,3 @@ const config = {
 };
 
 export default config;
-

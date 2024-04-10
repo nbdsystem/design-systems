@@ -1,7 +1,7 @@
-import adele from './src/adele-dump.json' assert { type: 'json' };
-import original from './src/generated/design-systems.json' assert { type: 'json' };
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import adele from './src/adele-dump.json' assert { type: 'json' };
+import original from './src/generated/design-systems.json' assert { type: 'json' };
 
 const result = [];
 
@@ -10,7 +10,7 @@ for (const ds of adele) {
     name: ds.name.trim(),
     sponsor: ds.company.trim(),
     links: ds.links.filter((link) => {
-      return link.url
+      return link.url;
     }),
   });
 }
@@ -21,18 +21,23 @@ for (const ds of original) {
     sponsor: ds.company.trim(),
     links: [
       ...ds.links,
-      ...ds.sources.filter(source => {
-        if (source.type !== 'github') {
-          throw new Error('Unknown source type', source);
-        }
-        return true;
-      }).map((source) => {
-        return {
-          type: 'github',
-          url: new URL(`/${source.owner}/${source.name}`, 'https://github.com'),
-        }
-      })
-    ]
+      ...ds.sources
+        .filter((source) => {
+          if (source.type !== 'github') {
+            throw new Error('Unknown source type', source);
+          }
+          return true;
+        })
+        .map((source) => {
+          return {
+            type: 'github',
+            url: new URL(
+              `/${source.owner}/${source.name}`,
+              'https://github.com',
+            ),
+          };
+        }),
+    ],
   });
 }
 
@@ -45,4 +50,3 @@ await fs.writeFile('data.json', JSON.stringify(result, null, 2));
 
 // console.log(adele);
 // console.log(original);
-

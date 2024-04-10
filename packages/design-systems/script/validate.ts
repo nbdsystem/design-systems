@@ -1,4 +1,4 @@
-import { Validator, type Schema } from '@cfworker/json-schema';
+import { type Schema, Validator } from '@cfworker/json-schema';
 import data from '../data/design-systems.json' assert { type: 'json' };
 import schema from '../src/schemas/design-systems.schema.json' assert { type: 'json' };
 

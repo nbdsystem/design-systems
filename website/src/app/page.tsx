@@ -14,7 +14,7 @@ export default function IndexPage() {
       : designSystems;
   return (
     <>
-      <main className="p-4 flex flex-col gap-y-4">
+      <main className="flex flex-col gap-y-4 p-4">
         <h1 className="text-2xl font-bold">
           Design systems ({results.length})
         </h1>

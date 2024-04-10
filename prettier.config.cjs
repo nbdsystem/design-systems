@@ -11,5 +11,6 @@ module.exports = {
   importOrder: ['^node:(.*)$', '<THIRD_PARTY_MODULES>', '^[./]'],
   importOrderSeparation: false,
   importOrderSortSpecifiers: true,
+  importOrderParserPlugins: ['importAssertions', 'typescript', 'jsx'],
   tailwindConfig: './website/tailwind.config.cjs',
 };

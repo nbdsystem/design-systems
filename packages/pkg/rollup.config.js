@@ -2,10 +2,14 @@ import esbuild from 'rollup-plugin-esbuild';
 import typescript from 'rollup-plugin-typescript2';
 import packageJson from './package.json' assert { type: 'json' };
 
-const external = ['dependencies', 'devDependencies', 'peerDependencies'].flatMap(type => {
+const external = [
+  'dependencies',
+  'devDependencies',
+  'peerDependencies',
+].flatMap((type) => {
   if (packageJson[type]) {
     return Object.keys(packageJson[type]).map((name) => {
-      return new RegExp(`^${name}(/.*)?`)
+      return new RegExp(`^${name}(/.*)?`);
     });
   }
   return [];
