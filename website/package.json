@@ -8,10 +8,17 @@
     "develop": "next"
   },
   "dependencies": {
+    "@nbds/background": "^0.0.0",
+    "@nbds/bundlesize": "^0.0.0",
+    "@nbds/cache": "^0.0.0",
     "@nbds/design-systems": "^0.1.0",
+    "@nbds/npm": "^0.0.0",
+    "@nbds/pkg": "^0.0.0",
+    "got": "^14.2.1",
     "next": "^14.1.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tar": "^7.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.74",
@@ -20,6 +27,7 @@
     "postcss": "^8.4.38",
     "rimraf": "^5.0.5",
     "tailwindcss": "^3.4.3",
+    "tsx": "^4.7.2",
     "typescript": "^5.4.4"
   }
 }

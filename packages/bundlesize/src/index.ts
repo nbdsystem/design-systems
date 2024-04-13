@@ -50,7 +50,17 @@ export async function bundleSize(
   const result: Array<BundleSize> = [];
 
   for (const entryPoint of entryPoints) {
-    if (entryPoint.type === 'ConditionEntryPoint') {
+    if (entryPoint.type === 'EntryPoint') {
+      const bundleData = await getBundleSize({
+        directory,
+        entrypoint: entryPoint.path,
+        filepath: path.resolve(directory, entryPoint.filepath),
+        conditions: [],
+        moduleFormat: entryPoint.packageModuleFormat,
+        external,
+      });
+      result.push(bundleData);
+    } else if (entryPoint.type === 'ConditionEntryPoint') {
       if (entryPoint.conditions.includes('types')) {
         continue;
       }
@@ -72,9 +82,41 @@ export async function bundleSize(
         external,
       });
       result.push(bundleData);
-    }
+    } else if (entryPoint.type === 'EntryPointPattern') {
+      const files = await listFiles(directory);
+      const matches: Array<[string, string]> = [];
 
-    if (entryPoint.type === 'ConditionEntryPointPattern') {
+      for (const file of files) {
+        for (const pattern of entryPoint.patterns) {
+          let [start, end] = pattern.split('*');
+          if (!start || !end) {
+            continue;
+          }
+
+          if (start.startsWith('./')) {
+            start = start.slice(2);
+          }
+
+          const relativePath = path.relative(directory, file);
+          if (relativePath.startsWith(start) && relativePath.endsWith(end)) {
+            matches.push([file, pattern]);
+          }
+        }
+      }
+
+      for (const [filepath, pattern] of matches) {
+        const bundleData = await getBundleSize({
+          directory,
+          entrypoint: entryPoint.path,
+          filepath,
+          conditions: [],
+          moduleFormat: entryPoint.packageModuleFormat,
+          pattern,
+          external,
+        });
+        result.push(bundleData);
+      }
+    } else if (entryPoint.type === 'ConditionEntryPointPattern') {
       if (entryPoint.conditions.includes('types')) {
         continue;
       }

@@ -26,6 +26,12 @@
           "type": "repository",
           "url": "https://github.com/ant-design/ant-design"
         }
+      ],
+      "packages": [
+        {
+          "registry": "npm",
+          "name": "antd"
+        }
       ]
     },
     {
@@ -48,7 +54,369 @@
         },
         {
           "type": "repository",
-          "url": "https://bitbucket.org/atlassian/atlaskit"
+          "url": "https://bitbucket.org/atlassian/atlassian-frontend-mirror"
+        }
+      ],
+      "packages": [
+        {
+          "registry": "npm",
+          "name": "@atlaskit/atlassian-navigation"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/avatar"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/avatar-group"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/badge"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/banner"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/blanket"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/breadcrumbs"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/button"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/calendar"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/checkbox"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/chunkinator"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/code"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/color-picker"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/comment"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/contextual-survey"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/datetime-picker"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/drawer"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/dropdown-menu"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/dynamic-table"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/editor-core"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/empty-state"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/feedback-collector"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/flag"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/focus-ring"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/form"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/give-kudos"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/heading"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/help-article"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/help-layout"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/icon"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/icon-object"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/image"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/inline-dialog"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/inline-edit"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/inline-message"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/layering"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/link-picker"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/locale"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/media-avatar-picker"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/media-card"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/media-image"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/media-picker"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/media-state"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/media-table"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/media-viewer"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/mention"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/menu"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/mobile-header"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/modal-dialog"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/motion"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/page"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/page-header"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/page-layout"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/pagination"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/popper"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/popup"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/portal"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/primitives"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/profilecard"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/progress-bar"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/progress-indicator"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/progress-tracker"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/quick-search"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/radio"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/range"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/rating"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/reactions"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/right-side-panel"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/section-message"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/select"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/share"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/side-navigation"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/smart-card"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/spinner"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/status"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/table-tree"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/tabs"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/tag"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/tag-group"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/task-decision"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/teams-avatar"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/textarea"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/textfield"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/theme"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/toggle"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/tokens"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/tooltip"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/tree"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/user-picker"
+        },
+        {
+          "registry": "npm",
+          "name": "@atlaskit/visually-hidden"
         }
       ]
     },
@@ -139,6 +507,12 @@
         {
           "type": "repository",
           "url": "https://github.com/uber/baseweb"
+        }
+      ],
+      "packages": [
+        {
+          "registry": "npm",
+          "name": "baseui"
         }
       ]
     },
@@ -243,6 +617,16 @@
         {
           "type": "storybook",
           "url": "https://react.carbondesignsystem.com/"
+        }
+      ],
+      "packages": [
+        {
+          "registry": "npm",
+          "name": "@carbon/react"
+        },
+        {
+          "registry": "npm",
+          "name": "@carbon/icons-react"
         }
       ]
     },
@@ -497,6 +881,16 @@
           "type": "repository",
           "url": "https://github.com/microsoft/fluentui"
         }
+      ],
+      "packages": [
+        {
+          "registry": "npm",
+          "name": "@fluentui/react"
+        },
+        {
+          "registry": "npm",
+          "name": "@fluentui/react-components"
+        }
       ]
     },
     {
@@ -606,6 +1000,12 @@
           "type": "repository",
           "url": "https://github.com/pinterest/gestalt"
         }
+      ],
+      "packages": [
+        {
+          "registry": "npm",
+          "name": "gestalt"
+        }
       ]
     },
     {
@@ -653,6 +1053,12 @@
         {
           "type": "storybook",
           "url": "https://govuk-react.github.io/govuk-react/"
+        }
+      ],
+      "packages": [
+        {
+          "registry": "npm",
+          "name": "govuk-react"
         }
       ]
     },
@@ -1047,6 +1453,16 @@
           "type": "repository",
           "url": "https://github.com/twilio-labs/paste"
         }
+      ],
+      "packages": [
+        {
+          "registry": "npm",
+          "name": "@twilio-paste/core"
+        },
+        {
+          "registry": "npm",
+          "name": "@twilio-paste/icons"
+        }
       ]
     },
     {
@@ -1183,6 +1599,12 @@
           "type": "repository",
           "url": "https://github.com/Shopify/polaris"
         }
+      ],
+      "packages": [
+        {
+          "registry": "npm",
+          "name": "@shopify/polaris"
+        }
       ]
     },
     {
@@ -1242,6 +1664,16 @@
         {
           "type": "repository",
           "url": "https://github.com/primer/react"
+        }
+      ],
+      "packages": [
+        {
+          "registry": "npm",
+          "name": "@primer/react"
+        },
+        {
+          "registry": "npm",
+          "name": "@primer/octicons-react"
         }
       ]
     },
@@ -1412,6 +1844,12 @@
         {
           "type": "repository",
           "url": "https://github.com/adobe/spectrum-css"
+        }
+      ],
+      "packages": [
+        {
+          "registry": "npm",
+          "name": "@adobe/react-spectrum"
         }
       ]
     },

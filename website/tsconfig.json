@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "modlule": "esnext",
+    "target": "bundler",
     "lib": [
       "dom",
       "dom.iterable",

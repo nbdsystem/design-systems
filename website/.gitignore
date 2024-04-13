@@ -3,3 +3,6 @@
 
 # Folder for static export
 out
+
+# Custom cache folder
+.cache

@@ -1,0 +1,31 @@
+{
+  "name": "@nbds/cache",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./time": {
+      "types": "./dist/time.d.ts",
+      "default": "./dist/time.js"
+    }
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "rollup -c",
+    "type-check": "tsc --noEmit",
+    "watch": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@types/semver": "^7.5.8",
+    "esbuild": "^0.20.2",
+    "rimraf": "^5.0.5",
+    "rollup": "^4.14.1",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.4.4"
+  }
+}
